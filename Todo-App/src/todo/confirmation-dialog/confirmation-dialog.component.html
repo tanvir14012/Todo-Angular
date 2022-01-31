@@ -1,0 +1,6 @@
+<h4>{{data.heading}}</h4>
+<p>{{data.message}}</p>
+<div class="d-flex justify-content-end">
+  <button mat-flat-button mat-dialog-close class="me-2">Cancel</button>
+  <button mat-flat-button cdkFocusInitial [mat-dialog-close]="'true'" [color]="'primary'">OK</button>
+</div>

@@ -1,0 +1,47 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+Todo-App//dist
+Todo-App//tmp
+Todo-App//out-tsc
+# Only exists if Bazel was run
+Todo-App//bazel-out
+
+# dependencies
+Todo-App/node_modules
+/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+Todo-App/.idea
+Todo-App/.project
+Todo-App/.classpath
+Todo-App/.c9/
+Todo-App/*.launch
+Todo-App/.settings/
+Todo-App/*.sublime-workspace
+
+# IDE - VSCode
+Todo-App/.vscode/*
+Todo-App/!.vscode/settings.json
+Todo-App/!.vscode/tasks.json
+Todo-App/!.vscode/launch.json
+Todo-App/!.vscode/extensions.json
+Todo-App/.history/*
+
+# misc
+Todo-App/.sass-cache
+Todo-App/connect.lock
+Todo-App/coverage
+Todo-App/libpeerconnection.log
+Todo-App/npm-debug.log
+Todo-App/yarn-error.log
+Todo-App/testem.log
+Todo-App/typings
+
+# System Files
+Todo-App/.DS_Store
+Todo-App/Thumbs.db
